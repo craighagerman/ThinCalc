@@ -1,0 +1,38 @@
+{
+  "name": "thincalc",
+  "version": "1.0.0",
+  "description": "A lightweight calculator for thin-set mortar calculations",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "eleventy --serve --port=8080",
+    "build": "eleventy",
+    "clean": "rm -rf dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craighagerman/ThinCalc.git"
+  },
+  "keywords": [
+    "calculator",
+    "tile",
+    "mortar",
+    "thinset"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craighagerman/ThinCalc/issues"
+  },
+  "homepage": "https://github.com/craighagerman/ThinCalc#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.0",
+    "alpinejs": "^3.14.9",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  }
+}
